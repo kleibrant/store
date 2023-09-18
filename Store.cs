@@ -73,18 +73,17 @@ namespace MyConvini
             if (wallet >= total)
             {
                 wallet -= total;
-                Console.WriteLine($"here's your receipt: {ViewCart()} \n {total}");
+                Console.WriteLine($"here's your receipt:");
+                userCart.ViewCart();
+                Console.WriteLine($"total: {total}");
+                Console.WriteLine("- - - - - - - - - - - - - - - - - -");
                 Console.WriteLine($"you have ${wallet} left");
+                Console.WriteLine("- - - - - - - - - - - - - - - - - -");
             }
             else
             {
                 Console.WriteLine($"Sorry, the purchase didn't go through, you don't have enough funds.");
             }
-
-        }
-
-        public void Run()
-        {
 
         }
     }

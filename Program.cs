@@ -79,6 +79,7 @@ namespace MyConvini
                         }
                         break;
                     case "3":
+                        Console.WriteLine("shopping cart:");
                         userCart.ViewCart();
                         Console.WriteLine("proceed? y/n");
 

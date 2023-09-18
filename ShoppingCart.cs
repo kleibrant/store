@@ -27,7 +27,7 @@ namespace MyConvini
 
         public void ViewCart()
         {
-            Console.WriteLine("shopping cart:");
+            
             Console.WriteLine("- - - - - - - - - - - - - - - - - -");
             Console.WriteLine("Name\tPrice");
 

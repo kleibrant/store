@@ -2,12 +2,9 @@
 
 namespace MyConvini
 {
-
     class ShoppingCart
     {
         public List<Item> cartItems;
-
-        
 
         public ShoppingCart()
         {
@@ -21,13 +18,11 @@ namespace MyConvini
                 cartItems.Add(item);
                 Console.WriteLine($"{item.Name} added to the shopping cart.");
                 item.Stock -= 1;
-            }
-            
+            } 
         }
 
         public void ViewCart()
         {
-            
             Console.WriteLine("- - - - - - - - - - - - - - - - - -");
             Console.WriteLine("Name\tPrice");
 
@@ -50,7 +45,5 @@ namespace MyConvini
 
             return total;
         }
-
-       
-        }
     }
+}

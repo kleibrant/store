@@ -14,8 +14,6 @@ namespace MyConvini
 			Name = name;
 			Stock = stock;
 			Price = price;
-
-
 		}
 	}
 }

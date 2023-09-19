@@ -82,7 +82,7 @@ namespace MyConvini
             }
             else
             {
-                Console.WriteLine($"Sorry, the purchase didn't go through, you don't have enough funds.");
+                Console.WriteLine($"sorry, the purchase didn't go through, you don't have enough funds.");
             }
 
         }

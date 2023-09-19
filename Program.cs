@@ -17,7 +17,6 @@ namespace MyConvini
 
             while (program.redo == true)
             {
-
                 Console.WriteLine("welcome to convini, how may we help you?");
                 Console.WriteLine("1. list available items");
                 Console.WriteLine("2. add an item to the shopping cart");
@@ -104,7 +103,5 @@ namespace MyConvini
                 }
             }
         }
-
-        
     }
 }

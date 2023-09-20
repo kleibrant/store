@@ -2,7 +2,6 @@
 
 namespace MyConvini
 {
-
     class ShoppingCart
     {
         public List<Item> cartItems;
@@ -25,7 +24,6 @@ namespace MyConvini
 
         public void ViewCart()
         {
-            
             Console.WriteLine("- - - - - - - - - - - - - - - - - -");
             Console.WriteLine("Name\tPrice");
 
@@ -45,9 +43,8 @@ namespace MyConvini
             {
                 total += item.Price;
             }
-
+            
             return total;
         }
-
     }
-    }
+}

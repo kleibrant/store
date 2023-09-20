@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace MyConvini
 {
@@ -82,10 +83,10 @@ namespace MyConvini
             }
             else
             {
-                Console.WriteLine($"sorry, the purchase didn't go through, you don't have enough funds.");
+                Console.WriteLine($"Sorry, the purchase didn't go through, you don't have enough funds.");
             }
-
-        }
+            }
+        
     }
 }
 

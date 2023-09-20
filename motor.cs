@@ -45,6 +45,7 @@ namespace MyConvini
                     break;
 
                 case "2":
+                    Console.WriteLine("what would you like to buy?");
                         string itemName = Console.ReadLine();
                         Item selectedItem = store.GetItemByName(itemName);
                         userCart.AddToCart(selectedItem);

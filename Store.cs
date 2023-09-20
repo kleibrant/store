@@ -53,7 +53,6 @@ namespace MyConvini
             Console.WriteLine("- - - - - - - - - - - - - - - - - -");
         }
 
-
         public Item GetItemByName(string itemName)
         {
             foreach (Item item in storeItems)
@@ -85,8 +84,6 @@ namespace MyConvini
             {
                 Console.WriteLine($"Sorry, the purchase didn't go through, you don't have enough funds.");
             }
-            }
-        
+        }  
     }
 }
-
